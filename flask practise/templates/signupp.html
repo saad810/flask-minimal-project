@@ -1,0 +1,35 @@
+{% extends 'layout.html' %}
+{% block content %}
+<section class="form-area align-center">
+    <section class="form-section content-dir">
+      <div class="form-header">
+        <h1 class="header-text">Register Now</h1>
+      </div>
+      <div>
+        <form method="POST" class="form-container">
+
+          <div class="form-element">
+             {{ form.username.label }}
+             {{ form.username }}
+          </div>
+          <div class="form-element">
+             {{ form.email.label }}
+              {{ form.email }}
+
+          </div>
+          <div class="form-element">
+            {{ form.password.label }}
+            {{ form.password }}
+          </div>
+          <div class="button-element">
+          <div class="form-element">
+            {{ form.confirm_password.label }}
+            {{ form.confirm_password }}
+          </div>
+          <div class="button-element">
+            {{ form.submit }}
+          </div>
+        </form>
+      </div>
+    </section>
+{% endblock %}
