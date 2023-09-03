@@ -1,6 +1,7 @@
 # Flask Minimal Project
 
 This minimal Flask project covers basic routing and Flask forms.
+this is an under development leet code clone project
 
 ## Virtual Environment Setup
 
